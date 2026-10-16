@@ -1,0 +1,10 @@
+[
+    {
+        "epoch": 1,
+        "average_training_loss": 0.04392197950558815
+    },
+    {
+        "epoch": 2,
+        "average_training_loss": 0.00027121558823637313
+    }
+]

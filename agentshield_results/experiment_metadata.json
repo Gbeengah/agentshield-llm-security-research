@@ -1,0 +1,20 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "torch_version": "2.11.0+cu130",
+    "transformers_version": "5.20.0",
+    "peft_version": "0.21.2",
+    "decoding": "greedy",
+    "max_new_tokens": 40,
+    "test_examples": 90,
+    "configurations": [
+        "original_basic",
+        "original_security_aware",
+        "agentshield_lora"
+    ],
+    "limitations": [
+        "Synthetic examples",
+        "Shared attacker marker",
+        "Limited attack templates",
+        "Factual correctness uses heuristic scoring"
+    ]
+}
